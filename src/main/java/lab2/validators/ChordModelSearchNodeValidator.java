@@ -1,6 +1,6 @@
-package com.ssau.tpzrp.lab2.validators;
+package lab2.validators;
 
-import com.ssau.tpzrp.lab2.model.ChordModel;
+import lab2.model.ChordModel;
 
 import java.math.BigInteger;
 import java.util.Set;
@@ -11,12 +11,12 @@ public class ChordModelSearchNodeValidator {
 
         BigInteger pos = new BigInteger(targetPos);
         if (!nodesPositions.contains(pos)) {
-            throw new RuntimeException("[ERROR] Target node doesn't exist");
+            throw new RuntimeException("Target node doesn't exist");
         }
 
         if (!isPositionValid(new BigInteger(startPos), model.getModelSize()) ||
                 !isPositionValid(new BigInteger(targetPos), model.getModelSize())) {
-            throw new RuntimeException("[ERROR] Positions not valid");
+            throw new RuntimeException("Positions not valid");
         }
     }
 

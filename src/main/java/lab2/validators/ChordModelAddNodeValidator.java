@@ -1,6 +1,6 @@
-package com.ssau.tpzrp.lab2.validators;
+package lab2.validators;
 
-import com.ssau.tpzrp.lab2.model.ChordModel;
+import lab2.model.ChordModel;
 
 import java.math.BigInteger;
 import java.util.Set;
@@ -11,7 +11,7 @@ public class ChordModelAddNodeValidator {
 
         BigInteger pos = new BigInteger(position);
         if (nodesPositions.contains(pos)) {
-            throw new RuntimeException("[ERROR] Node on this position already exist");
+            throw new RuntimeException("Node on this position already exist");
         }
     }
 }

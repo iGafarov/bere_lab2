@@ -1,4 +1,4 @@
-package com.ssau.tpzrp.lab2.validators;
+package lab2.validators;
 
 import java.math.BigInteger;
 import java.util.HashSet;

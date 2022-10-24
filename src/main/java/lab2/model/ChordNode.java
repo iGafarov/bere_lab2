@@ -1,4 +1,4 @@
-package com.ssau.tpzrp.lab2.model;
+package lab2.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

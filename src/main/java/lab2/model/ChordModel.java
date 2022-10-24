@@ -1,15 +1,13 @@
-package com.ssau.tpzrp.lab2.model;
+package lab2.model;
 
-import com.ssau.tpzrp.lab2.validators.ChordModelAddNodeValidator;
-import com.ssau.tpzrp.lab2.validators.ChordModelInitValidator;
-import com.ssau.tpzrp.lab2.validators.ChordModelRemoveNodeValidator;
-import com.ssau.tpzrp.lab2.validators.ChordModelSearchNodeValidator;
+import lab2.validators.ChordModelAddNodeValidator;
+import lab2.validators.ChordModelInitValidator;
+import lab2.validators.ChordModelRemoveNodeValidator;
+import lab2.validators.ChordModelSearchNodeValidator;
 import lombok.Data;
 
 import java.math.BigInteger;
 import java.util.*;
-
-import static com.ssau.tpzrp.lab2.constants.Constants.*;
 
 @Data
 public class ChordModel {

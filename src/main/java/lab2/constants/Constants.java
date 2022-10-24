@@ -1,4 +1,4 @@
-package com.ssau.tpzrp.lab2.constants;
+package lab2.constants;
 
 import java.util.Arrays;
 import java.util.List;
